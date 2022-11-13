@@ -16,7 +16,7 @@ public class Project {
         this.name = name;
     }
     private void addMember(Student student){
-        this.members.add(student);  // Man kann umbeschränkt viele Mitglieder hinzufügen
+        this.members.add(student);  // Man kann umbeschränkt viele Mitglieder hinzufügen, sollte das Projekt gelöscht werden bleiben die Students erhalten
     }
     public ArrayList getMember(){
         return this.members;

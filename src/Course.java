@@ -17,7 +17,7 @@ public class Course {
         this.prof = prof;
     }
 
-    public void enroll(Student student){
+    public void enroll(Student student){            // es könnnen 0 bis unendlich viele Students beitreten
         this.participants.add(student);
 
     }
